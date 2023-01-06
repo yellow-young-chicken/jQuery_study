@@ -120,3 +120,114 @@ $(function() {
     );
   
 });
+
+
+// コードを貼り付けてください
+$(function(){
+  
+});
+
+
+$(function() {
+  // 「#login-show」要素に対するclickイベントを作成してください
+  $('#login-show').click(function(){
+    $('#login-modal').fadeIn();
+  });
+  
+});
+
+$(function() {
+  $('#login-show').click(function() {
+    $('#login-modal').fadeIn();
+  });
+  
+  // 「.signup-show」のclickイベントを作成してください
+  $('.signup-show').click(function(){
+    $('#signup-modal').fadeIn();
+  })
+  
+});
+
+
+$(function() {
+  $('#login-show').click(function(){
+    $('#login-modal').fadeIn();
+  });
+  
+  $('.signup-show').click(function(){
+    $('#signup-modal').fadeIn();
+  });
+  
+  // 「.close-modal」要素にclickイベントを設定してください
+  
+  $('.close-modal').click(function(){
+    $('#login-modal').fadeOut();
+    $('#signup-modal').fadeOut();
+  })
+  
+  
+});
+
+$(function() {
+  
+  $('#login-show').click(function() {
+    $('#login-modal').fadeIn();
+  });
+  
+  $('.signup-show').click(function() {
+    $('#signup-modal').fadeIn();
+  });
+
+  $('.close-modal').click(function() {
+    $('#login-modal').fadeOut();
+    $('#signup-modal').fadeOut();
+  });
+  
+  // 「.lesson-hover」がhoverされたときのhoverイベントを作成してください
+  
+  $('.lesson-hover').hover(
+    function() {
+      
+    },
+    function() {
+      
+    }
+  );
+});
+    
+    
+$(function() {
+
+  $('#login-show').click(function() {
+    $('#login-modal').fadeIn();
+  });
+
+  $('.signup-show').click(function() {
+    $('#signup-modal').fadeIn();
+  });
+
+  $('.close-modal').click(function() {
+    $('#login-modal').fadeOut();
+    $('#signup-modal').fadeOut();
+  });
+  
+  $('.lesson-hover').hover(
+    function() {
+      // 子要素の「.text-contents」の要素を取得し、text-activeクラスをつけてください
+      $(this).find('.text-contents').addClass('text-active');            
+                                                   
+                    },            
+       function() {            
+ // 子要素の「.text-contents」の要素を取得し、text-activeクラスを外してください            
+      $(this).find('.text-contents').removeClass('text-active');            
+                                       
+      
+    },
+    function() {
+      // 子要素の「.text-contents」の要素を取得し、text-activeクラスを外してください
+      
+      
+    }
+  );
+});
+
